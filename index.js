@@ -3,4 +3,4 @@ const app = express();
 app.get('/', (req,res)=>{
  res.send('hello! from ecs fargate container.');
 });
-app.listen(3000);
+app.listen(8080);
