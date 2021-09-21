@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
 app.get('/', (req,res)=>{
- res.send('hello! from ecs fargate container.');
+ res.send('hello! from aws lambda!');
 });
-app.listen(3000);
+app.listen(8080);
