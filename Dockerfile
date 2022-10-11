@@ -1,4 +1,4 @@
-FROM 115627025420.dkr.ecr.ap-southeast-1.amazonaws.com/node-images:14.15.0-alpine3.12
+FROM node:16
 
 # Create app directory
 WORKDIR /usr/src/app
