@@ -30,4 +30,4 @@ jobs:
         with:
           context: .
           load: true
-          tags: user/app:latest
+          tags: areebemumba/sample-nodejs-app:latest
